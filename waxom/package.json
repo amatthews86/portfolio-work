@@ -1,0 +1,22 @@
+{
+  "name": "waxom",
+  "version": "1.0.0",
+  "description": "demo site to practice coding",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amatthews86/portfolio-work.git"
+  },
+  "author": "amanda matthews",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amatthews86/portfolio-work/issues"
+  },
+  "homepage": "https://github.com/amatthews86/portfolio-work#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
